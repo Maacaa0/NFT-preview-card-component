@@ -1,0 +1,127 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background: hsl(217, 54%, 11%);
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+.content {
+    width: 310px;
+    background: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    border-radius: 12px;
+
+    margin: 5% auto;
+    padding: 24px;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+}
+
+
+
+.imgcontainer:hover {
+    background-image: url(images/icon-view.svg);
+    background-color: hsla(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 12px;
+    cursor: pointer;
+        
+}
+
+
+.equilibrium {
+    width: 100%;
+    border-radius: 12px;
+    
+}
+
+.equilibrium:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 140px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-weight: 300;
+}
+
+.row {
+    display:flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.etherum {
+    margin-right: 5px;
+    position:relative;
+    top:2px
+}
+
+
+.clock {
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+}
+
+.line {
+    height: 1px;
+    width: auto;
+    background-color: hsl(215, 32%, 27%);
+    margin: 25px 0 8px;
+}
+
+footer {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+    font-size: 16px;
+
+}
+
+.avatar {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+a:visited {
+    color: inherit;
+}
